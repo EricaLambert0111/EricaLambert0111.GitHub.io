@@ -2,7 +2,7 @@ body {
     background: rgb(87, 71, 55);
     color: rgb(255, 255, 255);
     padding: 10px;
-    font-family: arial;
+    font-family: crusive;
 }
 #all-contents {
   max-width: 800px;
@@ -25,14 +25,14 @@ h1 {
     margin: 0;
 }
 #nav-ul {
-    list-style-image: none;
+    list-style-image: 5px;
 }
 .nav-li {
     display: inline-block;
     padding: 0 10px;
 }
 a {
-    text-decoration: none;
+    text-decoration: crusive;
     color: #fff;
 }
 
