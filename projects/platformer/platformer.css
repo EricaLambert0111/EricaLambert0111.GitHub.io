@@ -1,9 +1,9 @@
 body {
-  margin: 0px;
+  margin: px;
 }
 
 canvas {
-  background-color: lightgray;
+  background-color: rgb(43, 91, 161);
 }
 
 img {

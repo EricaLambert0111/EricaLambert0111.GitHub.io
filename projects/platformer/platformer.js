@@ -30,14 +30,14 @@ $(function () {
      */
 
     // Loop to create vertical grid lines
-    for (let i = 100; i < canvas.width; i += 100) {
-      createPlatform(i, 0, 1, canvas.height);
-    }
+    //for (let i = 100; i < canvas.width; i += 100) {
+    //  createPlatform(i, 0, 1, canvas.height);
+    //}
 
     // Loop to create horizontal gride lines
-    for (let i = 100; i < canvas.height; i += 100) {
-      createPlatform(0, i, canvas.width, 1);
-    }
+    //for (let i = 100; i < canvas.height; i += 100) {
+    //  createPlatform(0, i, canvas.width, 1);
+    //}
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -47,40 +47,48 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-//2nd on 2nd row
-createPlatform(500, 300, 200, 20)
-//2nd on 3rd row
-createPlatform(800, 400, 200, 20)
-//1st on 1st row
-createPlatform(200, 200, 200, 20)
-//3rd on 1st row
-createPlatform(200, 600, 200, 20)
-//2nd on 1st row
-createPlatform(200, 400, 200, 20)
-//1st on 2nd row
-createPlatform(500, 100, 200, 20)
-//3rd on 2nd row
-createPlatform(500, 500, 200, 20)
-//1st on 3rd row
-createPlatform(800, 200, 200, 20)
-//3rd on 3rd row
-createPlatform(800, 600, 200, 20)
-//3rd on last row
-createPlatform(1100, 500, 200, 20)
-//2nd on last row
-createPlatform(1100, 300, 200, 20)
-//1st on last row
-createPlatform(1100, 100, 200, 20)
- 
-    
+    //1st on 1st row
+    createPlatform(200, 200, 200, 20)
+    //2nd on 1st row
+    createPlatform(200, 400, 200, 20)
+    //3rd on 1st row
+    createPlatform(200, 600, 200, 20)
+    //1st on 2nd row
+    createPlatform(500, 100, 200, 20)
+    //2nd on 2nd row
+    createPlatform(500, 300, 200, 20)
+    //3rd on 2nd row
+    createPlatform(500, 500, 200, 20)
+    //1st on 3rd row
+    createPlatform(800, 200, 200, 20)
+    //2nd on 3rd row
+    createPlatform(800, 400, 200, 20)
+    //3rd on 3rd row
+    createPlatform(800, 600, 200, 20)
+    //1st on last row
+    createPlatform(1100, 100, 200, 20)
+    //2nd on last row
+    createPlatform(1100, 300, 200, 20)
+    //3rd on last row
+    createPlatform(1100, 500, 200, 20)
+    //starting platform
+    createPlatform(25, 200, 100, 15)
+
+
+
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
-createCollectable('steve', 575, 250)
-createCollectable('steve',)
+    //2nd on 2nd row
+    createCollectable('steve', 575, 250,)
+    //2nd on last row
+    createCollectable('steve', 1175, 250,)
+    //3rd on 1st row
+    createCollectable('steve', 275, 550,)
+    //3rd on last row
+    createCollectable('steve', 875, 550,)
 
 
     // TODO 3
@@ -88,8 +96,12 @@ createCollectable('steve',)
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
-
+    createCannon("left", 500, 2500)
+    createCannon("right", 325, 2500)
+    createCannon("bottom", 240, 5000)
+    createCannon("bottom", 540, 5000)
+    createCannon("bottom", 840, 5000)
+    createCannon("bottom", 1140, 5000)
 
 
     /////////////////////////////////////////////////
