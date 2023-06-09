@@ -82,13 +82,13 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     //2nd on 2nd row
-    createCollectable('steve', 575, 250,)
+    createCollectable('tyler', 575, 250,)
     //2nd on last row
-    createCollectable('steve', 1175, 250,)
+    createCollectable('tyler2', 1175, 250,)
     //3rd on 1st row
-    createCollectable('steve', 275, 550,)
+    createCollectable('tyler3', 275, 550,)
     //3rd on last row
-    createCollectable('steve', 875, 550,)
+    createCollectable('tyler5', 875, 550,)
 
 
     // TODO 3
